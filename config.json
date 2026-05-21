@@ -1,0 +1,56 @@
+{
+  "engine": "openvoice",
+  "mimo": {
+    "api_key": "",
+    "endpoint": ""
+  },
+  "voice": {
+    "openvoice": {
+      "model_path": "data/voice_model/",
+      "language": "zh"
+    },
+    "gptsovits": {
+      "model_path": "data/voice_model/",
+      "gpt_checkpoint": "",
+      "sovits_checkpoint": "",
+      "language": "zh"
+    }
+  },
+  "bots": {
+    "wechat": {
+      "enabled": true,
+      "puppet": "wechaty-puppet-padlocal",
+      "token": "",
+      "auto_voice": true,
+      "voice_probability": 0.7
+    },
+    "qq": {
+      "enabled": false,
+      "app_id": "",
+      "app_secret": "",
+      "token": ""
+    },
+    "feishu": {
+      "enabled": false,
+      "app_id": "",
+      "app_secret": "",
+      "verification_token": ""
+    },
+    "whatsapp": {
+      "enabled": false,
+      "phone_number_id": "",
+      "access_token": "",
+      "verify_token": ""
+    }
+  },
+  "persona": {
+    "data_path": "data/persona.md",
+    "chat_history_limit": 10,
+    "temperature": 0.8
+  },
+  "output": {
+    "default_mode": "mixed",
+    "voice_format": "wav",
+    "max_text_length": 200
+  }
+}
