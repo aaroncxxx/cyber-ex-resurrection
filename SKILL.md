@@ -1,11 +1,12 @@
 ---
 name: cyber-ex-resurrection
+displayName: V1.2复活吧我的赛博爱人
 description: 复活吧我的赛博前任 — 导入聊天截图+语音样本，克隆前任的语言风格和声音，通过IM机器人「复活」TA。含伦理合规、一键数据销毁、多引擎OCR、智能清洗。
 metadata:
   openclaw:
-    version: 1.2.0
+    version: 1.2.1
   author: aaroncxxx
-  tags: [voice-cloning, ocr, chatbot, wechat, resurrection, ethics, data-cleaning]
+  tags: [voice-cloning, ocr, chatbot, wechat, resurrection, ethics, data-cleaning, rag, emotion, multi-dimensional-persona]
 ---
 
 # 复活吧我的赛博前任 🫀
