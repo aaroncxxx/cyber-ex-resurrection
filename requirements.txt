@@ -1,0 +1,45 @@
+# Core
+pydantic>=2.0
+aiohttp>=3.9
+aiofiles>=23.0
+Pillow>=10.0
+
+# GUI
+PyQt6>=6.5
+PyQt6-sip>=13.6
+
+# OCR Engines
+# MIMO Omni (via API, no extra dep)
+# PaddleOCR — 手写体、竖排文字、特殊符号
+paddleocr>=2.7
+paddlepaddle>=2.5
+# EasyOCR — 多语言、表情包
+easyocr>=1.7
+
+# Voice Cloning - OpenVoice
+openvoice>=0.1.0
+# Voice Cloning - GPT-SoVITS (optional, needs GPU)
+# gptsovits  # pip install when GPU available
+
+# IM - Wechaty
+wechaty>=0.10
+wechaty-puppet-padlocal>=0.1
+
+# IM - QQ (qq-botpy)
+qq-botpy>=1.0
+
+# IM - Feishu
+lark-oapi>=1.0
+
+# IM - WhatsApp (requests based)
+requests>=2.31
+
+# Audio processing
+pydub>=0.25
+librosa>=0.10
+soundfile>=0.12
+
+# Utils
+rich>=13.0
+click>=8.1
+pyyaml>=6.0
