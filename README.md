@@ -5,6 +5,7 @@
 ![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python)
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Version](https://img.shields.io/badge/Version-1.2.4-orange)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-Model-yellow)
 
 ---
 
