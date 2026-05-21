@@ -4,7 +4,7 @@
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python)
 ![License](https://img.shields.io/badge/License-MIT-green)
-![Version](https://img.shields.io/badge/Version-1.2.4-orange)
+![Version](https://img.shields.io/badge/Version-1.2.5-orange)
 ![HuggingFace](https://img.shields.io/badge/HuggingFace-Model-yellow)
 
 ---
@@ -290,6 +290,10 @@ skills/cyber-ex-resurrection/
 ---
 
 ## 📝 更新日志
+
+### v1.2.5 (2026-05-22)
+- 🏷️ **名称更新**：正式更名为「V1.2 复活吧我的赛博爱人」
+- 📝 **版本说明**：完善 ClawHub 版本变更日志
 
 ### v1.2.4 (2026-05-22)
 - 🐛 **Bug 修复（9项）**:
